@@ -1,0 +1,52 @@
+
+==== NAME ====
+
+Posy::Plugin::ThisFlavour - Posy plugin to change local links to the current
+flavour
+
+
+==== VERSION ====
+
+This describes version ``0.40'' of Posy::Plugin::ThisFlavour.
+
+
+==== DESCRIPTION ====
+
+This plugin changes local links in entries from the default flavour into the
+current flavour (if the flavours are not the same).
+
+
+==   Configuration   ==
+
+This expects configuration settings in the $self->{config} hash, which, in
+the default Posy setup, can be defined in the main "config" file in the data
+directory.
+
+``this_flavour_convert_links''
+Set this_flavour_convert_links to off (zero) to turn off this plugin (for
+example, to give different behaviour in different directories). (default:
+on)
+
+
+==== REQUIRES ====
+
+    Posy
+    Posy::Core
+
+    Test::More
+
+
+==== AUTHOR ====
+
+    Kathryn Andersen (RUBYKAT)
+    perlkat AT katspace dot com
+    http://www.katspace.com
+
+
+==== COPYRIGHT AND LICENCE ====
+
+Copyright (c) 2004-2005 by Kathryn Andersen
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

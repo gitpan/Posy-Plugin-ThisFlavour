@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name: Posy-Plugin-ThisFlavour
+version: 0.40
+author:
+  - Kathryn Andersen
+abstract: |-
+  Posy plugin to change local links to the current flavour
+license: perl
+requires:
+  Posy: 0.4
+build_requires:
+  Test::More: 0
+provides:
+  Posy::Plugin::ThisFlavour:
+    file: lib/Posy/Plugin/ThisFlavour.pm
+    version: 0.40
+generated_by: Module::Build version 0.2607
