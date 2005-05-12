@@ -7,11 +7,11 @@ Posy::Plugin::ThisFlavour - Posy plugin to change local links to the current fla
 
 =head1 VERSION
 
-This describes version B<0.41> of Posy::Plugin::ThisFlavour.
+This describes version B<0.42> of Posy::Plugin::ThisFlavour.
 
 =cut
 
-our $VERSION = '0.41';
+our $VERSION = '0.42';
 
 =head1 SYNOPSIS
 
